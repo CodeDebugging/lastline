@@ -4,7 +4,7 @@ import sys
 retval = 1
 print ("File truncation tool version 1, 09 JAN 2018")
 if (len(sys.argv) < 1):
-    print ("Usage: delete <filename>")
+    print ("Usage: remove <filename>")
     print ("This program will trunacte the file from the character 0x1A")
     print ("Returns 0 in case of 0x!a removed or EOL found, 1 if any other condition is found")
     sys.exit(retval);      
