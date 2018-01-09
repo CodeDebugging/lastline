@@ -54,7 +54,7 @@ else:
                 retval = 0 
                 break               
             if (ord(ch) == chartofind):
-                print("Found arrow character 0x1A !")    
+                print("Found SUB character (0x1A) !")    
                 print("Truncating anything from here")  
                 file.seek(pos, os.SEEK_SET)
                 retval = 0
